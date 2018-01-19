@@ -6,8 +6,7 @@ input <- function(inputfile) {
 
 
 run <- function() {
-  cn <<- colnames(pc);
-  cn <<- cn[2:length(cn)];
+  cn <<- pc[,1];
   pc <<- pc[,-1];
   pc <<- apply(pc, 1, as.numeric);
   pc <<- t(pc);
