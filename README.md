@@ -2,6 +2,7 @@
 # Language: R
 # Input: CSV (abundances)
 # Output: CSV (dissimilarities)
+# Tested with: PluMA 1.0, R 3.2.5
 
 PluMA plugin to run the Raup-Crick (Raup and Crick, 1979) algorithm
 and compute dissimilarities.
