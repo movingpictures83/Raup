@@ -1,0 +1,2 @@
+Prefix plugins/Raup/example/
+Plugin Raup inputfile abundN.csv outputfile abundN.raup.csv
